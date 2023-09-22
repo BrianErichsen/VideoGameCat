@@ -3,6 +3,7 @@ add_executable(testSFML)
 target_sources(testSFML PRIVATE
   helloSFML.cpp
   Classes.cpp
+  Mouse.cpp
 )
 #create a folder named "cmake" at the top of your project and put the
 #findSFML.cmake file in it.  This line tells Cmake to look there for
